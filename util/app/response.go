@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	defaultSuccessCode = 0
+	defaultSuccessCode = 1
 	defaultErrCode     = -1
 	defaultErrMsg      = "server internal error"
 )
