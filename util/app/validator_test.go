@@ -2,8 +2,9 @@ package app
 
 import (
 	"fmt"
-	"github.com/richkeyu/gocommons/util/assert"
 	"testing"
+
+	"github.com/goodsfinder/common/util/assert"
 )
 
 type FormReq struct {

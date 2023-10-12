@@ -4,10 +4,11 @@ package plog
 
 import (
 	"context"
-	"github.com/richkeyu/gocommons/server"
-	"github.com/richkeyu/gocommons/trace"
-	"github.com/gin-gonic/gin"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/goodsfinder/common/server"
+	"github.com/goodsfinder/common/trace"
 )
 
 const (

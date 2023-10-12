@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/richkeyu/gocommons/server"
+	"github.com/goodsfinder/common/server"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/richkeyu/gocommons/plog"
 	"github.com/gin-gonic/gin"
+	"github.com/goodsfinder/common/plog"
 )
 
 func Recovery() gin.HandlerFunc {

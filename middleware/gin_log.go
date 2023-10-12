@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/richkeyu/gocommons/plog"
-	"github.com/richkeyu/gocommons/server"
+	"github.com/goodsfinder/common/plog"
+	"github.com/goodsfinder/common/server"
 
 	"github.com/gin-gonic/gin"
 )

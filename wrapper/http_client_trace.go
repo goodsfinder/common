@@ -3,9 +3,9 @@ package wrapper
 import (
 	"context"
 
-	"github.com/richkeyu/gocommons/client"
-	"github.com/richkeyu/gocommons/server"
-	"github.com/richkeyu/gocommons/trace"
+	"github.com/goodsfinder/common/client"
+	"github.com/goodsfinder/common/server"
+	"github.com/goodsfinder/common/trace"
 )
 
 func HttpClientTrace(next client.Wrapper) client.Wrapper {

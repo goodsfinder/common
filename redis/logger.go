@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/richkeyu/gocommons/plog"
+	"github.com/goodsfinder/common/plog"
 
 	"github.com/go-redis/redis/v8"
 )

@@ -2,10 +2,11 @@ package redis
 
 import (
 	"context"
-	"github.com/richkeyu/gocommons/plog"
-	"github.com/go-redis/redis/v8"
 	"sync"
 	"time"
+
+	"github.com/go-redis/redis/v8"
+	"github.com/goodsfinder/common/plog"
 )
 
 type Client struct {

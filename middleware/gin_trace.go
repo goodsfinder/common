@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/richkeyu/gocommons/trace"
 	"github.com/gin-gonic/gin"
+	"github.com/goodsfinder/common/trace"
 )
 
 // InitTrace http请求初始化traceID

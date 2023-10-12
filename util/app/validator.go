@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/richkeyu/gocommons/util"
+	"github.com/goodsfinder/common/util"
 )
 
 const OmitRequiredFlag = "OmitRequired"

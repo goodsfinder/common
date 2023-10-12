@@ -8,7 +8,7 @@ import (
 
 	"gorm.io/gorm/utils"
 
-	"github.com/richkeyu/gocommons/plog"
+	"github.com/goodsfinder/common/plog"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

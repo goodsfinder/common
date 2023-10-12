@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/richkeyu/gocommons/trace"
-	"github.com/richkeyu/gocommons/util"
+	"github.com/goodsfinder/common/trace"
+	"github.com/goodsfinder/common/util"
 
 	"github.com/sirupsen/logrus"
 )

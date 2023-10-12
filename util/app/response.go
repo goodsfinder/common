@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/richkeyu/gocommons/perrors"
-	"github.com/richkeyu/gocommons/plog"
+	"github.com/goodsfinder/common/perrors"
+	"github.com/goodsfinder/common/plog"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

@@ -1,6 +1,6 @@
 package client
 
-import "github.com/richkeyu/gocommons/perrors"
+import "github.com/goodsfinder/common/perrors"
 
 const (
 	SuccessCode = 1

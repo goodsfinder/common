@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/richkeyu/gocommons/plog"
+	"github.com/goodsfinder/common/plog"
 )
 
 var exitHandlers []func()

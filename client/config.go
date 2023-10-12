@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/richkeyu/gocommons/config"
+	"github.com/goodsfinder/common/config"
 )
 
 const (

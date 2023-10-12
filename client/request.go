@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/richkeyu/gocommons/plog"
+	"github.com/goodsfinder/common/plog"
 
 	"github.com/sirupsen/logrus"
 )

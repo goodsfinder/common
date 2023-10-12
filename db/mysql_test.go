@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/richkeyu/gocommons/plog"
+	"github.com/goodsfinder/common/plog"
 )
 
 func TestConn(t *testing.T) {

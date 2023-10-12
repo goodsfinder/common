@@ -2,10 +2,11 @@ package plog
 
 import (
 	"context"
-	"github.com/richkeyu/gocommons/server"
-	"github.com/gin-gonic/gin"
 	"testing"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/goodsfinder/common/server"
 )
 
 func TestLog(t *testing.T) {

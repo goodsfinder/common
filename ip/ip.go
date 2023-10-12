@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/richkeyu/gocommons/plog"
-	"github.com/richkeyu/gocommons/server"
-	"github.com/richkeyu/gocommons/util"
+	"github.com/goodsfinder/common/plog"
+	"github.com/goodsfinder/common/server"
+	"github.com/goodsfinder/common/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/ip2location/ip2location-go/v9"

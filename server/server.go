@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/richkeyu/gocommons/config"
+	"github.com/goodsfinder/common/config"
 
 	"github.com/gin-gonic/gin"
 )
