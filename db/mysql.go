@@ -73,7 +73,7 @@ func InitMysqlClient(conf MysqlConf) (client *gorm.DB, err error) {
 	if conf.LogMode {
 		gormOptConf.Logger = initLogger(conf)
 	}
-	dsn := fmt.Sprintf("%s:%s@tcp(%s)/%s?timeout=%s&readTimeout=%s&writeTimeout=%s&parseTime=True&loc=UTC",
+	dsn := fmt.Sprintf("%s:%s@tcp(%s)/%s?timeout=%s&readTimeout=%s&writeTimeout=%s&parseTime=True&loc=Local",
 		conf.User,
 		conf.Password,
 		conf.Addr,
