@@ -78,10 +78,14 @@ func (r *Response) GetBody() (ResponseBody, error) {
 	}
 
 	if r.req.Log() != nil {
+		var log = "content too long"
+		if len(string(body)) < 1000 {
+			log = string(body)
+		}
 		r.req.Log().WithFields(logrus.Fields{
 			"host": r.req.req.URL.String(),
 			"cost": float64(time.Now().Sub(r.req.startTime).Microseconds()) / 1000,
-		}).Infof("client resp: %s", string(body))
+		}).Infof("client resp: %s", log)
 	}
 
 	return ResponseBody(body), nil
